@@ -19,5 +19,8 @@ class ofApp : public ofBaseApp{
 		void dragEvent(ofDragInfo dragInfo);
 		void gotMessage(ofMessage msg);
     
-	 void drawShape(float diam);	
+	 void drawShape(float diam);
+     void drawBranch(float x, float y, float diam1, float diam2);
+     int posX, posY;
+     float diam1, diam2;
 };

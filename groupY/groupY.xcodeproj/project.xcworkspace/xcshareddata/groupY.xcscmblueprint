@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "21B8797239D88CD52AAF7B707F135CEAB5C5CA6E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "21B8797239D88CD52AAF7B707F135CEAB5C5CA6E" : 0,
+    "2290051B3775B9669A324D1F2251F76D0AE892B1" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "72E527B7-B860-481F-BF87-5FA5E01734B7",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "21B8797239D88CD52AAF7B707F135CEAB5C5CA6E" : "OF-group-project\/",
+    "2290051B3775B9669A324D1F2251F76D0AE892B1" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "groupY",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "groupY\/groupY.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/iris-qu\/OF-group-project",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "21B8797239D88CD52AAF7B707F135CEAB5C5CA6E"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/chrislin1202\/CreativeCoding_OF",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2290051B3775B9669A324D1F2251F76D0AE892B1"
+    }
+  ]
+}

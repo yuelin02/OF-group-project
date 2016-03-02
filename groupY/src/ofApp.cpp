@@ -1,5 +1,23 @@
 #include "ofApp.h"
 
+void ofApp::drawBranch(float x, float y, float diam1, float diam2){
+    
+    ofSetCircleResolution(50);
+    ofSetColor(abs(sin(ofGetElapsedTimef()/3))*255, abs(cos(ofGetElapsedTimef()/2))*255, abs(cos(ofGetElapsedTimef()/4))*255, 255);
+    ofNoFill();
+    ofDrawEllipse(x, y, diam1, diam2);
+    ofTranslate(30*sin(ofGetElapsedTimef()), 30*sin(ofGetElapsedTimef()));
+    diam1 = diam1 * 0.8;
+    diam2 = diam2 * 0.8;
+    
+    if(diam1 > 10){
+        ofPushMatrix();
+        drawBranch(0, 0, diam1, diam2);
+        ofPopMatrix();
+    }
+}
+
+
 void ofApp::drawShape(float diam) {
     
     
@@ -25,6 +43,8 @@ void ofApp::drawShape(float diam) {
 void ofApp::setup(){
     ofBackground(0);
     ofSetBackgroundAuto(false);
+    posX = ofGetWidth()/2;
+    posY = ofGetHeight()/2;
 }
 
 //--------------------------------------------------------------
@@ -41,6 +61,7 @@ void ofApp::draw(){
     ofTranslate(ofGetWidth()/2, ofGetHeight()/2);
    
     drawShape(abs(cos(ofGetElapsedTimef()/7))*100);
+    drawBranch(0, 0, abs(cos(ofGetElapsedTimef()/7))*200, abs(cos(ofGetElapsedTimef()/7))*200);
 }
 
 //--------------------------------------------------------------
